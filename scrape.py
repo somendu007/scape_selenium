@@ -3,7 +3,7 @@ import uuid
 from selenium import webdriver
 import psycopg2
 
-# Configure Selenium webdriver (you need to specify the path to your webdriver executable)
+
 driver_path = '/Users/somendupatel/Downloads/chrome-mac-arm64'
 driver = webdriver.Chrome(executable_path=driver_path)
 
